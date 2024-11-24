@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Hjemmeside</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #6200ea;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #3700b3;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2em;
+            text-align: center;
+        }
+        footer {
+            background: #6200ea;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Velkommen til min hjemmeside</h1>
+    </header>
+    <nav>
+        <a href="#home">Hjem</a>
+        <a href="#about">Om mig</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <main>
+        <h2>Hej!</h2>
+        <p>Dette er en simpel hjemmeside lavet med HTML og CSS.</p>
+        <p>Tilføj mere tekst eller sektioner her!</p>
+    </main>
+    <footer>
+        &copy; 2024 Din Navn. Alle rettigheder forbeholdes.
+    </footer>
+</body>
+</html>
